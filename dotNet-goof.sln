@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet-goof", "dotNet-goof.csproj", "{5CA72E98-EC4E-4154-B11F-887ABA76B1DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA72E98-EC4E-4154-B11F-887ABA76B1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA72E98-EC4E-4154-B11F-887ABA76B1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA72E98-EC4E-4154-B11F-887ABA76B1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA72E98-EC4E-4154-B11F-887ABA76B1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65AC84AC-A378-48DD-9BF8-159925996CD8}
+	EndGlobalSection
+EndGlobal

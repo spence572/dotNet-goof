@@ -4862,11 +4862,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4939,23 +4940,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/pstember/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/ofireldar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
+      "projectUniqueName": "/Users/ofireldar/Github/goofs/dotNet-goof/dotNet-goof.csproj",
       "projectName": "dotNet-goof",
-      "projectPath": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-      "packagesPath": "/Users/pstember/.nuget/packages/",
-      "outputPath": "/Users/pstember/Git/dotNet-goof/obj/",
+      "projectPath": "/Users/ofireldar/Github/goofs/dotNet-goof/dotNet-goof.csproj",
+      "packagesPath": "/Users/ofireldar/.nuget/packages/",
+      "outputPath": "/Users/ofireldar/Github/goofs/dotNet-goof/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/pstember/.nuget/NuGet/NuGet.Config"
+        "/Users/ofireldar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -4965,6 +4962,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {}
         }
       },
@@ -4976,6 +4974,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -4989,10 +4988,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
